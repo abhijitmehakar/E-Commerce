@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>FOOT FAB</title>
+    
+   
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+    
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+   
+    
+    <script src="https://kit.fontawesome.com/4f133ed2d1.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-md fixed-top">
+          <div class="container-md navbar-container">
+            <div class="mobile-nav">
+              <button id="toggle" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i id="bars" class="fa fa-bars"></i>
+              </button>
+              <h1><b>FOOT FAB</b></h1>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <button id="close-btn" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                  <i class="bi bi-x xmark"></i>
+                </button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Collections</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Men</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Women</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="navbar-cart">
+              <button id="cartBtn" class="cart-qnty" aria-expanded="false" aria-label="Open cart">
+                <span id="cartIndicator" class="cartIndicator bg-accent bkg"></span>
+                <i class="bi bi-cart3 shopping-cart-button"></i>
+              </button>
+              <a href="#">
+                <div class="avatar-logo">
+                  <img src="images/image-avatar.png" alt="avatar" class="avatar">
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="producstOnCart hide" id="cartPanel">
+            <div class="cart-overlay"></div>
+            <div class="top">
+              <p>Cart</p>
+            </div>
+            <div id="cartBody" class="cart-body">
+              <div class="empty-cart-content">
+                <div></div>
+                <p class="cart-empty">Your cart is empty</p>
+                <div></div>
+              </div>
+  
+             
+            </div>
+          </div>
+
+        </nav>
+        
+        <section class="container product">
+          
+          <div class="row">
+            <div class="col-lg-6">
+
+              <div class="main-images-container">
+                <div class="product-image-container">
+                  <img id="main-img" class="img-fluid product-image" src="images/image-product-1.jpg" alt="image product">
+                </div>
+
+                <div class="previous arrow">
+                  <i class="fa fa-regular fa-angle-left"></i>                  
+                </div>
+  
+                <div class="next arrow">
+                  <i class="fa fa-regular fa-angle-right"></i>
+                </div>
+                
+                <div class="thumbnail-container">
+                  <div class="col-3">
+                    <div class="thumbnail-image-container active">
+                      <img src="images/image-product-1.jpg" alt="thumb-one">
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="thumbnail-image-container">
+                      <img src="images/image-product-2.jpg" alt="thumb-two">
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="thumbnail-image-container">
+                      <img src="images/image-product-3.jpg" alt="thumb-three">
+                    </div>
+                  </div>
+                  <div class="col-3">
+                    <div class="thumbnail-image-container">
+                      <img src="images/image-product-4.jpg" alt="product-one">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+ 
+            </div>
+            
+            <div class="col-lg-6">
+              <div class="product-information-container">
+                <div class="product-header">
+                  <p class="header-title">Footwear Company</p>
+                  <h3 class="product-name">Fall Limited Edition Footwears <!DOCTYPE html>
+                  <html lang="en">
+                  <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+                  </head>
+                  <body>
+                    
+                  </body>
+                  </html></h3>
+                </div>
+                <div class="product-body">
+                  <p class="product-info">
+                    Step into style and comfort with our  Sneakers. These versatile sneakers seamlessly blend fashion and functionality, making them the perfect choice for urban explorers. The sleek design, coupled with high-quality materials, ensures a trendy and durable shoe that stands out in any setting. The cushioned insole provides all-day comfort, while the flexible outsole offers excellent traction for city streets or casual outings. Elevate your everyday look with  Sneakers – where comfort meets street-smart style.
+                  </p>
+                
+                  <div class="price-container">
+                    <div class="new-price-container">
+                      <h3 class="new-price">
+                        <span >&#8377; 699.00</span>
+                      </h3>
+                      <p class="reduced-percent">50%</p>
+                    </div>
+                    <span class="old-price">&#8377;1399.00</span>
+                  </div>
+                  <div class="product-button">
+                    <div class="row">
+                      <div class="col-xl-4 col-md-6">
+                        <div id="quantity-button" class="quantity-button">
+                          <button id="amtDecrease" class="fa fa-regular fa-minus amt" type="button" disabled></button>
+                          <span id="qty" class="quantity-num">1</span>
+                          <button class="fa fa-regular fa-plus amt" type="button"></button>
+                        </div>
+                      </div>
+                      <div class="col-xl-8 col-md-6">
+                        <button id="checkout" class="btn cart-button btn-block">
+                          <i class="bi bi-cart3 cart-icon"></i>Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="lightbox-overlay hidden">
+            <div class="overlay-close">
+              <i id="overlayClose" class="bi bi-x xmark"></i>
+            </div>
+          </div>
+
+        </section>
+
+      </div>
+      
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col-sm footer-links">
+          </div>
+          <div class="col-sm footer-text">
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="script/script.js"></script>
+    <script src="script/shopping-cart.js"></script>  
+  
+  </body>
+</html>
